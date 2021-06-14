@@ -1,5 +1,23 @@
 # Bookmark Manager
 
+### To set up the database
+
+Connect to `psql` and create the `bookmark_manager` database:
+
+```
+CREATE DATABASE bookmark_manager;
+```
+
+To set up the appropriate tables, connect to the database in `psql` and run the SQL scripts in the `db/migrations` folder in the given order.
+
+### To run the Bookmark Manager app:
+
+```
+rackup -p 3000
+```
+
+To view bookmarks, navigate to `localhost:3000/bookmarks`.
+
 ## User Story
 ```
 As a user,
@@ -18,3 +36,11 @@ I want to be able to see a list of bookmarks.
 | View        | Display the result to a user                  | Show the bookmark data in a list        |
 | Controller  | Get data from the model and put in the view   | Render bookmark data into to the view   |
 ```
+
+## User Story
+```
+As a time-pressed user
+So that I can save a website
+I would like to add the site's address and title to bookmark manager
+```
+
