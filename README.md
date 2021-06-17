@@ -44,3 +44,10 @@ So that I can save a website
 I would like to add the site's address and title to bookmark manager
 ```
 
+## User Story
+```
+As a user
+So I can store bookmark data for later retrieval
+I want to add a bookmark to Bookmark Manager
+```
+
