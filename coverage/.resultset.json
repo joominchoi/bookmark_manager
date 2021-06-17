@@ -23,6 +23,27 @@
           1,
           null,
           null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/jooomin/Documents/Makers/Makers Main Course/Week 4/bookmark_manager/spec/features/creating_bookmarks_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
           null
         ]
       },
@@ -55,6 +76,6 @@
         ]
       }
     },
-    "timestamp": 1623940391
+    "timestamp": 1623945904
   }
 }
