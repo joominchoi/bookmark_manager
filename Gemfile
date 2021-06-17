@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'capybara'
 gem 'launchy'
+gem 'pg'
 gem 'rexml'
 gem 'rspec'
 gem 'rubocop', '0.79.0'
